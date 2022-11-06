@@ -5,7 +5,7 @@ public class LargestElementInArray{
         //Assuming the array contains only positive integer
         int max = 0;
         for(int curr : arr){
-            if(cur>max) max = curr;
+            if(curr>max) max = curr;
         }
         return max;
     }
