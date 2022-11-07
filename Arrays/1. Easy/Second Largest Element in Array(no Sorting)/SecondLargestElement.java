@@ -1,7 +1,7 @@
 public class SecondLargestElement{
     public static int FindSecondLargest(int arr[]){
         int max = 0;
-        int SeconeLarge = 0;
+        int SeconeLarge = -1;
         for(int curr : arr){
             if(max < curr) max = curr;
         }
