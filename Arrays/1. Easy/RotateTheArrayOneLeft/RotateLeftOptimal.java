@@ -10,7 +10,7 @@ public class RotateLeftOptimal {
     }
     public static void RotateArray(int arr[], int rotateCount){
         int n = arr.length; 
-        rotateCount = rotateCount%n;  // mod by n, if k is greater than n
+        rotateCount = rotateCount%n;  // mod by n, if rotateCount is greater than n
         reverseArray(arr, 0, rotateCount-1); 
         reverseArray(arr, rotateCount, n-1);
         reverseArray(arr, 0, n-1);
