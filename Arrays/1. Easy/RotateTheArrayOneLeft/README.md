@@ -1,4 +1,5 @@
 # [Left Rotate the Array by One](https://takeuforward.org/data-structure/left-rotate-the-array-by-one/)
+## The same problem can be used for rotate by D places
 ## Problem Statement: Given an array of N integers, left rotate the array by one place.
 
 Examples:
