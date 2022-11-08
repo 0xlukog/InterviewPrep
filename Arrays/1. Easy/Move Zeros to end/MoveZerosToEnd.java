@@ -1,5 +1,5 @@
 public class MoveZerosToEnd{
-    public static int[] ZerosToLeft(int arr[]) {
+    public static int[] ZerosToEnd(int arr[]) {
         int returnArray[] = new int[arr.length];
         int returnArrayPosition = 0;
         int zeroCount = 0;
@@ -17,7 +17,7 @@ public class MoveZerosToEnd{
     }
     public static void main(String[] args) {
         int array [] = {1 ,0 ,2 ,3 ,0 ,4 ,0 ,1};
-        for(int x : ZerosToLeft(array)){
+        for(int x : ZerosToEnd(array)){
             System.out.print(x+" ");
         }
     }
