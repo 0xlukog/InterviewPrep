@@ -1,4 +1,4 @@
-public class MoveZerosToLeft{
+public class MoveZerosToEnd{
     public static int[] ZerosToLeft(int arr[]) {
         int returnArray[] = new int[arr.length];
         int returnArrayPosition = 0;
